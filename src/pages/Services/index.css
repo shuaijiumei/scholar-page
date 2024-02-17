@@ -1,0 +1,87 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 30%;
+  height: 100vh;
+  background-color: white;
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .name {
+        margin-top: 2vh;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 2vh;
+      }
+      .shortInfo {
+        height: 10vh;
+        font-size: 1rem;
+        font-weight: normal;
+        width: 50%;
+      }
+    }
+  }
+  .link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    width: 50%;
+    height: 30%;
+    .icon {
+      margin-right: .5vw;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      text-decoration-line: underline !important;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 70%;
+  height: 100vh;
+
+  background-color: white;
+
+  .title {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+    align-self: flex-start;
+  }
+  .markdown {
+    width: 80%;
+    height: 80%;
+    align-self: flex-start;
+    overflow-y: auto;
+  }
+}
