@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../dumiProject/.idea/dumiProject.iml" filepath="$PROJECT_DIR$/../dumiProject/.idea/dumiProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/personalPage.iml" filepath="$PROJECT_DIR$/.idea/personalPage.iml" />
     </modules>
   </component>

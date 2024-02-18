@@ -51,3 +51,7 @@
 3. 修改 `assets` 文件夹下的文件
 4. 运行 `npm run build` 生成静态文件
 5. 将生成的静态文件`dist`上传到你的服务器上，修改 nginx 配置文件，将`root`指向`dist`文件夹
+
+
+### by the way
+自动化脚本存放在 `/src/assets` 文件夹下，爬取前请修改 `urls`， 改为你自己的 google scholar 首页，自动存放数据在 `publications.json` 文件中
