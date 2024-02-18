@@ -12,7 +12,8 @@
 `info.json` 是个人的基本信息
 ```json
 {
-  "name": "Boyin Tan", // 个人姓名
+  // 名称
+  "name": "Boyin Tan",
   // 简介，出现在头像下方 只能限制 5 行
   "shortInfo": "I am a software engineer with a passion for building scalable and maintainable software systems. I have experience in full-stack development, and I am always eager to learn new technologies and tools.",
   // 地点
@@ -45,8 +46,8 @@
 ```
 
 ### 如何使用
-1. fork 本项目
-2. 安装 node 环境，本项目基于 `node` 运行
+1. clone 本项目
+2. 安装 node 环境，并按照`cnpm`, `cnpm i` 安装依赖
 3. 修改 `assets` 文件夹下的文件
 4. 运行 `npm run build` 生成静态文件
-5. 将生成的静态文件上传到你的服务器上
+5. 将生成的静态文件`dist`上传到你的服务器上，修改 nginx 配置文件，将`root`指向`dist`文件夹
