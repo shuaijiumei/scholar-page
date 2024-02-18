@@ -3,5 +3,10 @@
   "include": [
     "src/**/*",
     "typings.d.ts"
-  ]
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+  }
 }

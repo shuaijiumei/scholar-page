@@ -3,13 +3,14 @@ import styles from './index.less';
 import {Menu, type MenuProps} from "antd";
 import React, {useState} from "react";
 import Container from "@/component/Container";
+import info from '@/assets/Info.json'
 
 const items: MenuProps['items'] = [
     {
         label: (
-            <span style={{fontSize: "1.5rem", fontWeight: "normal"}}>BoYin Tan</span>
+            <span style={{fontSize: "1.5rem", fontWeight: "normal"}}>{info.name}</span>
         ),
-        key: 'AboutMe',
+        key: 'aboutme',
     },
     {
         label: 'Publications',
@@ -27,8 +28,7 @@ const items: MenuProps['items'] = [
         label: 'CV',
         key: 'cv',
     },
-
-];
+].filter(item => info.showBar.includes(item.key))
 
 export default function Layout() {
     const [current, setCurrent] = useState('AboutMe');
@@ -42,7 +42,6 @@ export default function Layout() {
         <>
             <Menu rootClassName={styles.nav} onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items}/>
             <Container><Outlet/></Container>
-
         </>
     );
 }

@@ -1,0 +1,16 @@
+{
+  "name": "Boyin Tan",
+  "shortInfo": "I am a software engineer with a passion for building scalable and maintainable software systems. I have experience in full-stack development, and I am always eager to learn new technologies and tools.",
+  "location": "ShenZhen, China",
+  "email": "BoyinTan1221@gmail.com",
+  "github": "https://github.com/shuaijiumei",
+  "twitter": "https://twitter.com/BoyinTan",
+  "googleScholar": "https://scholar.google.com/citations?user=3z3z3z4AAAAJ&hl=en",
+  "showBar": [
+    "aboutme",
+    "publications",
+    "awards",
+    "services",
+    "cv"
+  ]
+}

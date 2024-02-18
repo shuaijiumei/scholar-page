@@ -6,8 +6,8 @@ export default defineConfig({
       path: '/',
       component: '@/layouts/layouts',
       routes: [
-        { path: '/', redirect: '/AboutMe' },
-        {path: '/AboutMe', component: '@/pages/AboutMe'},
+        { path: '/', redirect: '/aboutme' },
+        {path: '/aboutme', component: '@/pages/AboutMe'},
         {path: '/publications', component: '@/pages/Publications'},
         {path: '/awards', component: '@/pages/Award'},
         {path: '/services', component: '@/pages/Services'},
