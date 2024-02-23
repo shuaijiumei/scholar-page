@@ -23,4 +23,6 @@ export default defineConfig({
         .test(/\.md$/)
         .type('asset/source');
   },
+  publicPath: '/scholar-page/',
+  base: '/scholar-page/',
 });
