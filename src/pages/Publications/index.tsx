@@ -21,10 +21,10 @@ export default () => {
     },
     {
       title: 'CITED BY',
-      dataIndex: 'cite',
-      key: 'cite',
+      dataIndex: 'cites',
+      key: 'cites',
       width: '15%',
-      sorter: (a: any, b: any) => a.cite - b.cite,
+      sorter: (a: any, b: any) => a.cites - b.cites,
     },
     {
       width: '15%',

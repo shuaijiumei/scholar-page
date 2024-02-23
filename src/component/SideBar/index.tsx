@@ -5,6 +5,8 @@ import ReactMarkdown from "react-markdown";
 import {EnvironmentOutlined, GithubOutlined, GlobalOutlined, ReadOutlined, TwitterOutlined} from "@ant-design/icons";
 import info from '@/assets/Info.json'
 import img from '@/assets/logo.png'
+//@ts-ignore
+import shortInfoMd from '@/assets/shortInfo.md'
 
 export default () => {
   return <div className="sidebar">
@@ -18,7 +20,7 @@ export default () => {
           {info.name}
         </div>
         <div className={'shortInfo'}>
-          <ReactMarkdown children={info.shortInfo}/>
+          <ReactMarkdown children={shortInfoMd}/>
         </div>
       </div>
     </div>
