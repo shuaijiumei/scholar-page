@@ -5,6 +5,8 @@
 
 `AboutMe.md` 是个人的简介
 
+`shortInfo.md` 是个人的简短介绍, 就是头像名字下面那一块
+
 `Publications.md` 是个人的论文列表
 
 `Service.md` 是个人的学术服务列表
@@ -14,9 +16,7 @@
 {
   // 名称
   "name": "Boyin Tan",
-  // 简介，出现在头像下方 只能限制 5 行
-  "shortInfo": "I am a software engineer with a passion for building scalable and maintainable software systems. I have experience in full-stack development, and I am always eager to learn new technologies and tools.",
-  // 地点
+ // 地点
   "location": "ShenZhen, China",
   "email": "BoyinTan1221@gmail.com",
   "github": "https://github.com/shuaijiumei",
