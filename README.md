@@ -47,7 +47,7 @@
 
 ### 如何使用
 1. clone 本项目
-2. 安装 node 环境，并按照`cnpm`, `cnpm i` 安装依赖
+2. 安装 node 环境，并安装`cnpm: npm install cnpm`, `cnpm i` 安装依赖
 3. 修改 `assets` 文件夹下的文件
 4. 运行 `npm run build` 生成静态文件
 5. 将生成的静态文件`dist`上传到你的服务器上，修改 nginx 配置文件，将`root`指向`dist`文件夹
