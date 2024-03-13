@@ -2,7 +2,8 @@
 in CUHKSZ.  
 Looking for a **Phd position**  
 in \`Software Engineering\`.
-Interested in **AIOps**, **Program Analyse**.`,e=n(36071),x=function(){var p=function(S){S.preventDefault(),c()(i.email),t.ZP.success("Email copied to clipboard",1)};return(0,e.jsxs)("div",{className:"sidebar",children:[(0,e.jsxs)("div",{className:"profile",children:[(0,e.jsx)(r.C,{className:"avatar",size:{xs:48,sm:64,md:80,lg:64,xl:160,xxl:150},src:g}),(0,e.jsxs)("div",{className:"info",children:[(0,e.jsx)("div",{className:"name",children:i.name}),(0,e.jsx)("div",{className:"shortInfo",children:(0,e.jsx)(l.U,{children:j})})]})]}),(0,e.jsxs)("div",{className:"link",children:[(0,e.jsxs)("div",{children:[(0,e.jsx)(h.Z,{className:"icon"}),i.location]}),(0,e.jsxs)("div",{children:[(0,e.jsx)(m.Z,{className:"icon"}),(0,e.jsx)("a",{href:i.github,children:"Github"})]}),(0,e.jsxs)("div",{children:[(0,e.jsx)(v.Z,{className:"icon"}),(0,e.jsx)("a",{href:i==null?void 0:i.twitter,children:"Twitter"})]}),(0,e.jsxs)("div",{children:[(0,e.jsx)(f.Z,{className:"icon"}),(0,e.jsx)("a",{onClick:p,href:"",children:"Email"})]}),(0,e.jsxs)("div",{children:[(0,e.jsx)(u.Z,{className:"icon"}),(0,e.jsx)("a",{href:i==null?void 0:i.googleScholar,children:"Google Scholar"})]})]})]})}},47273:function(s,a,n){n.r(a),n.d(a,{default:function(){return c}});var d=n(34200),t=`
+Interested in **AIOps**,  
+ **Program Analyse**.`,e=n(36071),x=function(){var p=function(S){S.preventDefault(),c()(i.email),t.ZP.success("Email copied to clipboard",1)};return(0,e.jsxs)("div",{className:"sidebar",children:[(0,e.jsxs)("div",{className:"profile",children:[(0,e.jsx)(r.C,{className:"avatar",size:{xs:48,sm:64,md:80,lg:64,xl:160,xxl:150},src:g}),(0,e.jsxs)("div",{className:"info",children:[(0,e.jsx)("div",{className:"name",children:i.name}),(0,e.jsx)("div",{className:"shortInfo",children:(0,e.jsx)(l.U,{children:j})})]})]}),(0,e.jsxs)("div",{className:"link",children:[(0,e.jsxs)("div",{children:[(0,e.jsx)(h.Z,{className:"icon"}),i.location]}),(0,e.jsxs)("div",{children:[(0,e.jsx)(m.Z,{className:"icon"}),(0,e.jsx)("a",{href:i.github,children:"Github"})]}),(0,e.jsxs)("div",{children:[(0,e.jsx)(v.Z,{className:"icon"}),(0,e.jsx)("a",{href:i==null?void 0:i.twitter,children:"Twitter"})]}),(0,e.jsxs)("div",{children:[(0,e.jsx)(f.Z,{className:"icon"}),(0,e.jsx)("a",{onClick:p,href:"",children:"Email"})]}),(0,e.jsxs)("div",{children:[(0,e.jsx)(u.Z,{className:"icon"}),(0,e.jsx)("a",{href:i==null?void 0:i.googleScholar,children:"Google Scholar"})]})]})]})}},47273:function(s,a,n){n.r(a),n.d(a,{default:function(){return c}});var d=n(34200),t=`
 Boyin Tan is a 1st-year master student at The Chinese University of HongKong,(ShenZhen), under the supervision of [Prof.Pinjia He](https://pinjiahe.github.io/).  Previously, He received Bachelor\u2019s degree in Software Engineering from **UESTC** (University of Electronic Science and Technology of China) in 2023.  
 My Research interests include LLM for code, program analysis and AIOps.   
 I have very rich development experience and have been independently responsible for project development many times including website, mini Program and back-end systems.  
@@ -13,7 +14,7 @@ I have very rich development experience and have been independently responsible 
 + 2019.09 ~ 2023.06 Bachelor degree, University of Electronic Science and Technology of China
 ## \u{1F3C3} Experiences
 + 2022.01 ~ 2022.06 Front-end Development Dntern Engineer, Ant Group **(Team maintains the Antd and Umi)**
-+ 2021.01 \uFF5E 2022.01 Studio Chairman of XingSanHao Club of UESTC
++ 2021.01 ~ 2022.01 Studio Chairman of XingSanHao Club of UESTC
 + 2020.09 ~ 2022.01 Football Team Captain of School of Information and Software Engineering of UESTC
 
 ## \u{1F396} Awards
