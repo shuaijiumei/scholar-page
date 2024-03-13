@@ -3,6 +3,7 @@ from lxml import html
 import json
 
 base_url = 'https://scholar.google.com/'
+# TODO 请将urls替换为你的google scholar的url
 urls = 'https://scholar.google.com/citations?user=vg0moI0AAAAJ&hl=en'
 
 def getData(url):

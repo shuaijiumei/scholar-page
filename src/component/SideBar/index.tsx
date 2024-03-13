@@ -19,7 +19,8 @@ export default () => {
   return <div className="sidebar">
     <div className={'profile'}>
       <Avatar
-        size={{xs: 48, sm: 64, md: 80, lg: 128, xl: 160, xxl: 200}}
+        className="avatar"
+        size={{xs: 48, sm: 64, md:80, lg: 64, xl: 160, xxl: 150}}
         src={img}
       />
       <div className={'info'}>
