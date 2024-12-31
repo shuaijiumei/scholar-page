@@ -55,3 +55,59 @@
 
 ### by the way
 自动化脚本存放在 `/src/assets` 文件夹下，爬取前请修改 `urls`， 改为你自己的 google scholar 首页，自动存放数据在 `publications.json` 文件中
+
+
+### 使用 Github Pages 部署
+
+1. 安装 gh-pages 依赖:
+
+
+## 部署到 GitHub Pages
+
+### 1. 安装依赖
+```bash
+npm install gh-pages --save-dev
+```
+
+### 2. 配置 package.json
+在 `package.json` 中添加部署脚本：
+```json
+{
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  }
+}
+```
+
+### 3. 配置 UMI
+在 `.umirc.ts` 中设置正确的 `publicPath` 和 `base`：
+```typescript
+export default defineConfig({
+  publicPath: process.env.NODE_ENV === 'production' ? '/your-repo-name/' : '/',
+  base: '/',
+  // ... 其他配置
+});
+```
+
+### 4. 构建和部署
+```bash
+# 构建项目
+npm run build
+
+# 部署到 GitHub Pages
+npm run deploy
+```
+
+### 5. 设置 GitHub Pages
+1. 进入 GitHub 仓库设置
+2. 找到 Pages 设置项
+3. 在 Branch 选项中选择 `gh-pages` 分支
+4. 保存设置
+
+完成后，你的网站将会部署在：`https://your-username.github.io/your-repo-name/`
+
+注意：
+- 确保将 `your-repo-name` 替换为你的实际仓库名
+- 首次部署可能需要等待几分钟才能访问
+- 如果使用自定义域名，需要在 GitHub Pages 设置中配置
+
