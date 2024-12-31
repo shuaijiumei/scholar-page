@@ -9,4 +9,28 @@
   align-items: center;
   font-weight: 250;
   margin-left: 10vw;
+  position: relative;
+  z-index: 100;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    width: 100vw;
+    margin-left: 0;
+    font-size: 1rem;
+    margin-top: 0;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav {
+    font-size: 0.9rem;
+    :global(.ant-menu-item) {
+      padding: 0 10px !important;
+    }
+  }
 }

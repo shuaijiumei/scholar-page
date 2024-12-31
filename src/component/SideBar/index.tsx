@@ -40,12 +40,12 @@ export default () => {
         <div className={'name'}>
           {info.name}
         </div>
-        <div className={'shortInfo'} style={{width: `${avatarWidth}px`}}>
+        <div className={'shortInfo'}>
           <ReactMarkdown children={shortInfoMd}/>
         </div>
       </div>
     </div>
-    <div className={'link'} style={{width: `${avatarWidth}px`}}>
+    <div className={'link'}>
       <div><EnvironmentOutlined className={'icon'}/>{info.location}</div>
       <div><GithubOutlined className={'icon'}/><a href={info.github}>Github</a></div>
       <div><TwitterOutlined className={'icon'}/><a href={info?.twitter}>Twitter</a></div>

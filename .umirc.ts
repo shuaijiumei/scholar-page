@@ -6,12 +6,12 @@ export default defineConfig({
       path: '/',
       component: '@/layouts/layouts',
       routes: [
-        { path: '/', redirect: '/aboutme' },
-        {path: '/aboutme', component: '@/pages/AboutMe'},
-        {path: '/publications', component: '@/pages/Publications'},
-        {path: '/awards', component: '@/pages/Award'},
-        {path: '/services', component: '@/pages/Services'},
-        {path: '/cv', component: '@/pages/CV'},
+        { path: '/', redirect: 'aboutme' },
+        { path: '/aboutme', component: '@/pages/AboutMe'},
+        { path: '/publications', component: '@/pages/Publications'},
+        { path: '/awards', component: '@/pages/Award'},
+        { path: '/services', component: '@/pages/Services'},
+        { path: '/cv', component: '@/pages/CV'},
         { path: '/*', component: '@/pages/404' },
       ],
     },
@@ -23,7 +23,9 @@ export default defineConfig({
         .test(/\.md$/)
         .type('asset/source');
   },
-  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/scholar-page/' : '/',
+  base: '/',
+  hash: true,
   history: {
     type: 'hash'
   },

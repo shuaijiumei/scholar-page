@@ -1,6 +1,4 @@
-**MSC Student** (MAIR)   
-in CUHKSZ.  
+**Master Student** in CUHKSZ.  
 Looking for a **Phd position**  
 in `Software Engineering`.
-Interested in **AIOps**,  
- **Program Analyse**.
+Interested in **AI4SE**, **Program Analyse**.
