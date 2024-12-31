@@ -23,6 +23,8 @@ export default defineConfig({
         .test(/\.md$/)
         .type('asset/source');
   },
-  publicPath: '/scholar-page/',
-  base: '/scholar-page/',
+  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
+  history: {
+    type: 'hash'
+  },
 });

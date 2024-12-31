@@ -5,11 +5,5 @@
   "github": "https://github.com/shuaijiumei",
   "twitter": "https://twitter.com/BoyinTan",
   "googleScholar": "https://scholar.google.com/citations?user=3z3z3z4AAAAJ&hl=en",
-  "showBar": [
-    "aboutme",
-    "publications",
-    "awards",
-    "services",
-    "cv"
-  ]
+  "showBar": ["aboutme", "publications", "cv"]
 }
