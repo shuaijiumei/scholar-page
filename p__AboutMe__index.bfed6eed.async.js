@@ -12,7 +12,7 @@ I have very rich development experience and have been independently responsible 
 + 2019.09 ~ 2023.06 Bachelor degree, University of Electronic Science and Technology of China
 ## \u{1F3C3} Experiences
 + 2024.06 ~ **Present** Intern, Tencent, Shenzhen
-+ 2022.01 ~ 2022.06 Front-end Development Dntern Engineer, Ant Group **(Team maintains the Antd and Umi)**
++ 2022.01 ~ 2022.06 Front-end Development Intern Engineer, Ant Group **(Team maintains the Antd and Umi)**
 + 2021.01 ~ 2022.01 Studio Chairman of XingSanHao Club of UESTC
 + 2020.09 ~ 2022.01 Football Team Captain of School of Information and Software Engineering of UESTC
 
