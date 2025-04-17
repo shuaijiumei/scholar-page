@@ -4,7 +4,7 @@ import json
 
 base_url = 'https://scholar.google.com/'
 # TODO 请将urls替换为你的google scholar的url
-urls = 'https://scholar.google.com/citations?user=vg0moI0AAAAJ&hl=en'
+urls = 'https://scholar.google.com/citations?hl=zh-CN&user=lvhoqu4AAAAJ'
 
 def getData(url):
     header_dict={'Host': 'scholar.google.com',
